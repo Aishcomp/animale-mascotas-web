@@ -12,7 +12,7 @@ Todo el HTML inicial irá enfocado a la rama `html-template`
 Hacer uso de diseño responsive con uso de CSS Media Queries y un enfoque Mobile First
 No hacer uso de librerías externas como jQuery, Bootstrap o Materialize.
 
-Hacer uso de [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) de lo contrario ningún Pull Request será aprobado.
+Hacer uso de [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) de lo contrario el **Pull Request** no será aprobado.
 
 Para el nombramiento de las clases en CSS van a se hará uso de la metodología [BEM](https://blog.interactius.com/metodolog%C3%ADa-css-block-element-modifier-bem-f26e69d1de3).
 
