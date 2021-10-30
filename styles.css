@@ -5,9 +5,11 @@
 
 * {
     box-sizing: border-box;
-    font-family: ABeeZee;
-    margin: 0;
     padding: 0;
+    margin: 10;
+    margin: 0;
+    
+    font-family: ABeeZee;
 }
 
 .nav ul {
