@@ -1,0 +1,47 @@
+@font-face {
+    font-family:ABeeZee;
+    src: url(./fonts/ABeeZee-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: ABeeZee;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    color: black; 
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding-right: 10%;
+    padding-top: 1.5rem;
+}
+
+.nav ul li {
+    align-items: center;
+    border-right: 1px solid black;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    width: 120px;
+}
+
+.nav a {
+    color: black; 
+    text-decoration: none; 
+}
+
+.nav a:hover {
+    color: black;
+}
+
+.nav a:active {
+    color: black;
+}
+
+.nav ul li:last-of-type {
+    border-right: none;
+}
+
