@@ -1,3 +1,15 @@
+@font-face {
+    font-family:ABeeZee;
+    src: url(./fonts/ABeeZee-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: ABeeZee;
+    margin: 0;
+    padding: 0;
+}
+
 footer{
     padding: 10px 10px 0 10px;
     background-color:lightgray ;
@@ -10,7 +22,6 @@ footer{
     flex-direction: column;
     align-items: center;
 }
-
 
 .container-Email{
     position: absolute;
@@ -51,4 +62,35 @@ footer{
     grid-template-columns: 2fr 1fr 1fr;
     width: 80%;
     padding: 80px 0px;
+}
+
+.nav ul {
+    color: black; 
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding-right: 10%;
+    padding-top: 1.5rem;
+}
+
+.nav ul li {
+    align-items: center;
+    border-right: 1px solid black;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    width: 120px;
+}
+
+.nav a {
+    color: black; 
+    text-decoration: none; 
+}
+
+.nav a:hover {
+    color: black;
+}
+
+.nav a:active {
+    color: black;
 }
