@@ -45,3 +45,7 @@
     border-right: none;
 }
 
+#map {
+    height: 500px;
+    width: 50%;
+}
