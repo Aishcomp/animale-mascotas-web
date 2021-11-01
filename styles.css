@@ -1,15 +1,18 @@
 @font-face {
     font-family: ABeeZee;
-    src: url(./fonts/ABeeZee-Regular.ttf);
+    src: url(fonts/ABeeZee/ABeeZee-Regular.ttf);
 }
-@font-face{
+
+@font-face {
     font-family: Pangolin;
-    src: url(./font2/Pangolin-Regular.ttf);
+    src: url(fonts/Pangolin/Pangolin-Regular.ttf);
 }
-@font-face{
+
+@font-face {
     font-family: Rubik;
-    src: url(./font3/Rubik-VariableFont_wght.ttf);
-}   
+    src: url(fonts/Rubik/Rubik-VariableFont_wght.ttf);
+}
+
 * {
     box-sizing: border-box;
     font-family: ABeeZee;
@@ -64,7 +67,7 @@ main{
 }
 
 .main-div button{
-    background: #3BA1C2;  
+    background: #3BA1C2;
     border-radius: 5px;
     color: #FFFFFF;
     height: 60px;
