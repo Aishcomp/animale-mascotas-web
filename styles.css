@@ -84,10 +84,6 @@ button {
     color: black;
 }
 
-.nav ul li:last-of-type {
-    border-right: none;
-}
-
 .cover {
     position: relative;
     height: fit-content;
@@ -141,4 +137,71 @@ button {
     display: flex;
     justify-content:  space-between;
     position: relative;
+}
+
+
+footer {
+    align-items: center;
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    padding: 10px 10px 0 10px;
+}
+
+.footer-mesage {
+    margin: 50px;
+}
+
+.footer-input {
+    align-items: center;
+    background-color:white ;
+    box-shadow: 0px 4px 34px rgba(0, 0, 0, 0.05);
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+    min-width: 300px;
+    width: 40%;
+}
+
+.footer-input input {
+    background-color: none;
+    border: 0px;
+    color: #414141;
+    font-size: 19px;
+    height: 100%;
+}
+
+.footer-input button {
+    background: #124C5F;
+    border-radius: 5px;
+    color: #FFFFFF;
+    height: 60px;
+    width: 190px;
+}
+
+.footer-btn-img {
+    margin-bottom: -3px;
+    margin-left: 20px;
+    margin-top: 2px;
+}
+
+.footer-info {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    padding: 80px 0px;
+    width: 80%;
+}
+
+.footer-span{
+    border-bottom: 1px solid black;
+    width: 100vw;
+}
+
+.footer-bottom {
+    display: grid;
+    grid-template-columns: 3fr 2fr 1fr 1fr 1fr 1fr;
+    padding: 80px 0px;
+    width: 80%;
 }
