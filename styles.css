@@ -142,3 +142,15 @@ button {
     justify-content:  space-between;
     position: relative;
 }
+
+#map {
+    height: 500px;
+    width: 50%;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.divider {
+    border: 2px solid blue;
+    width: 200px;
+}
