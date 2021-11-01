@@ -1,31 +1,54 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animale Mascotas</title>
-    <link rel="stylesheet" href="./styles.css">
-    <script src="./js/script_maps.js"></script>
-    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5OzQzVol_2IsWYnKxCDPqG3kqCkYFnk0&callback=iniciarMap"></script>
-    
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animale Mascotas</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./js/script_maps.js"></script>
+  <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5OzQzVol_2IsWYnKxCDPqG3kqCkYFnk0&callback=iniciarMap"></script>
+
 </head>
 <body>
-    <header>
-        <nav class="nav">
-            <ul>
-                <li ><a href="">about</a></li>
-                <li ><a href="">Products</a></li>
-                <li ><a href="">contact</a></li>-
-            </ul>
-        </nav>
+  <header>
+    <nav class="nav">
+      <ul>
+        <li>
+          <a href="">
+            about
+          </a>
+        </li>
+        <li>
+          <a href="">
+            Products
+          </a>
+        </li>
+        <li>
+          <a href="">
+            contact
+          </a>
+        </li>
+      </ul>
+    </nav>
 
-        <div class="containner_map">
-            <h1>Nuestras tiendas</h1> 
-            <div class="divider"></div>
-            <div id="map"></div>
-        </div>     
-    </header>
-    
+    <!-- Here goes the banner -->
+    <div class="cover">
+      <img src="images/banner_background.svg"/>
+      <img id="img-cat" src="images/cat-image.png"/>
+
+      <div class="container__info">
+        <h1>La tienda favorita de tus peludos</h1>
+        <p>Que chimba los perritos y los gatitos pa' si o que</p>
+        <button>Explore More</button>
+      </div>
+    </div>
+  </header>
+
+    <div class="containner_map">
+      <h1>Nuestras tiendas</h1>
+      <div class="divider"> </div>   
+      <div id="map"></div>
+    </div>
 </body>
 </html>

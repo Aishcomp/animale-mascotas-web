@@ -17,3 +17,16 @@ Hacer uso de [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.
 Para el nombramiento de las clases en CSS van a se hará uso de la metodología [BEM](https://blog.interactius.com/metodolog%C3%ADa-css-block-element-modifier-bem-f26e69d1de3).
 
 Solo se permiten ilustraciones en formato `.svg`, solamente las fotografias pueden usar un formato diferente, de preferencia `.png`.
+
+# Required extensions
+
+Install
+
+```
+Name: EditorConfig for VS Code
+Id: editorconfig.editorconfig
+Description: EditorConfig Support for Visual Studio Code
+Version: 0.16.4
+Publisher: EditorConfig
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+```
