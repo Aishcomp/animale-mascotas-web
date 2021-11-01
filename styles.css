@@ -143,8 +143,6 @@ button {
 footer {
     align-items: center;
     background-color: #E5E5E5;
-    border-color: white;
-    border-style: solid;
     display: flex;
     flex-direction: column;
     margin-bottom: 0px;
