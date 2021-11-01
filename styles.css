@@ -1,35 +1,71 @@
-*{
+@font-face {
+    font-family:ABeeZee;
+    src: url(./fonts/ABeeZee-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: ABeeZee;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+}
+
+.nav ul {
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding-right: 10%;
+    padding-top: 1.5rem;
+}
+
+.nav ul li {
+    align-items: center;
+    border-right: 1px solid black;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    width: 120px;
+}
+
+.nav a {
+    color: black;
     text-decoration: none;
-} 
+}
 
-/*COVER*/
+.nav a:hover {
+    color: black;
+}
 
-.cover{
+.nav a:active {
+    color: black;
+}
+
+.nav ul li:last-of-type {
+    border-right: none;
+}
+
+.cover {
     width: 100x;
     padding-bottom: 60px;
     margin-top:  100px;
 }
 
-header{
+header {
     position: relative;
 }
 
-.cover img{
+.cover img {
     position: absolute;
     z-index: -100px;
-    
 }
 
-.container__info{
+.container__info {
     position: absolute;
     height: 100%;
-    background-color: blueviolet;
 }
 
-.container__cover{
+.container__cover {
     max-width: 1200px;
     margin: auto;
     padding: 20px;
@@ -38,33 +74,23 @@ header{
     position: relative;
 }
 
-.cover h1{
+.cover h1 {
     max-width: 400px;
     font-size: 30spx;
     font-weight: 900px;
     color:black; 
 }
 
-.cover p{
+.cover p {
     margin-top: 10px;
     color: black;
-
 }
 
-.cover input[type="button"]{
-    padding: 10px 40 px;
-    margin-top: 40px;
-    font-size: 18px;
-    font-weight: 500;
-    border: none;
-    color: white;
-    background-color:rgba(14, 14, 163, 0.892) ;
-    border-radius: 20px;
+.cover button {
+    background: #124C5F;  
+    border-radius: 5px;
+    color: #FFFFFF;
+    height: 30px;
+    width: 120px;
+    
 }
-
-/* .container__info{
-    position: absolute;
-    bottom: 8px;
-    left: 16 px;
-
-} */
