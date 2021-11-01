@@ -53,6 +53,11 @@ footer {
     padding: 10px 10px 0 10px;
 }
 
+.footer-mesage {
+ margin: 50px;
+
+}
+
 .footer-input {
     align-items: center;
     background-color:white ;
@@ -78,6 +83,13 @@ footer {
     color: #FFFFFF;
     height: 60px;
     width: 190px;
+    
+}
+
+.footer-btn-img {
+    margin-bottom: -3px;
+    margin-left: 20px;
+    margin-top: 2px;
 }
 
 .footer-info {
@@ -85,4 +97,20 @@ footer {
     grid-template-columns: 2fr 1fr 1fr;
     padding: 80px 0px;
     width: 80%;
+    
 }
+
+.footer-span{
+    border-bottom: 1px solid black;
+    width: 100vw;
+}
+.footer-bottom {
+    
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    padding: 80px 0px;
+    width: 80%;
+    
+
+}
+
