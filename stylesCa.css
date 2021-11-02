@@ -1,0 +1,374 @@
+@font-face {
+    font-family: ABeeZee;
+    src: url(fonts/ABeeZee/ABeeZee-Regular.ttf);
+}
+
+@font-face {
+    font-family: Pangolin;
+    src: url(fonts/Pangolin/Pangolin-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: ABeeZee;
+    margin: 0;
+    padding: 0;
+}
+.nav ul {
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    font-size: 1.5em;
+    padding-right: 13%;
+    padding-top: 1.5em;
+}
+
+.nav ul li {
+    align-items: center;
+    border-right: 1px solid black;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    width: auto;
+    padding: 0 1em;
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: black;
+}
+
+.nav a:active {
+    color: black;
+}
+
+.nav ul li:last-of-type {
+    border-right: none;
+}
+
+.catalogue-container{
+    margin: 50px;
+}
+
+.catalogue{
+    font-size: 60px;
+    font-family: Pangolin;
+}
+
+.divider{
+    width:420px;
+    border-top: 6px solid #3A8DA8;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px auto;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin:120px;
+}
+
+.container h1{
+    font-family: Pangolin;
+}
+
+.container figcaption{
+    font-family: Rubik;
+}
+
+.container div{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    color: #979697;
+}
+
+.container-product1{
+    grid-row: 2;
+    grid-column: 1;
+    height: 300px;
+}
+
+.container-product2{
+    grid-row: 2;
+    grid-column: 2;
+    height: 300px;
+}
+
+.container-product3{
+    grid-row: 2;
+    grid-column: 3;
+    height: 300px;
+}
+.product1-caption{
+    grid-row: 3;
+    grid-column: 1;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+}
+
+.product2-caption{
+    grid-row: 3;
+    grid-column: 2;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+}
+
+.product3-caption{
+    grid-row: 3;
+    grid-column: 3;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+}
+
+.product1-description{
+    grid-row: 4;
+    grid-column: 1;
+    width: 260px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.product2-description{
+    grid-row: 4;
+    grid-column: 2;
+    width: 210px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.product3-description{
+    grid-row: 4;
+    grid-column: 3;
+    width: 210px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.container-product4{
+    grid-row: 5;
+    grid-column: 1;
+    height: 300px;
+    margin-top: 100px;
+}
+
+.container-product5{
+    grid-row: 5;
+    grid-column: 2;
+    height: 300px;
+    margin-top: 100px;
+}
+
+.container-product6{
+    grid-row: 5;
+    grid-column: 3;
+    height: 300px;
+    margin-top: 100px;
+}
+.product4-caption{
+    grid-row: 6;
+    grid-column: 1;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+}
+
+.product5-caption{
+    grid-row: 6;
+    grid-column: 2;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+}
+
+.product6-caption{
+    grid-row: 6;
+    grid-column: 3;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+}
+
+.product4-description{
+    grid-row: 7;
+    grid-column: 1;
+    width: 260px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.product5-description{
+    grid-row: 7;
+    grid-column: 2;
+    width: 210px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.product6-description{
+    grid-row: 7;
+    grid-column: 3;
+    width: 210px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.container-product7{
+    grid-row: 8;
+    grid-column: 1;
+    height: 300px;
+    margin-top: 100px;
+}
+
+.container-product8{
+    grid-row: 8;
+    grid-column: 2;
+    height: 300px;
+    margin-top: 100px;
+}
+
+.container-product9{
+    grid-row: 8;
+    grid-column: 3;
+    height: 300px;
+    margin-top: 100px;
+}
+
+.product7-caption{
+    grid-row: 9;
+    grid-column: 1;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+}
+
+.product8-caption{
+    grid-row: 9;
+    grid-column: 2;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+}
+
+.product9-caption{
+    grid-row: 9;
+    grid-column: 3;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+}
+
+.product7-description{
+    grid-row: 10;
+    grid-column: 1;
+    width: 260px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.product8-description{
+    grid-row: 10;
+    grid-column: 2;
+    width: 210px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.product9-description{
+    grid-row: 10;
+    grid-column: 3;
+    width: 210px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.container-product10{
+    grid-row: 11;
+    grid-column: 1;
+    height: 300px;
+    margin-top: 100px;
+}
+
+.container-product11{
+    grid-row: 11;
+    grid-column: 2;
+    height: 300px;
+    margin-top: 100px;
+}
+
+.container-product12{
+    grid-row: 11;
+    grid-column: 3;
+    height: 300px;
+    margin-top: 100px;
+}
+
+.product10-caption{
+    grid-row: 12;
+    grid-column: 1;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+}
+
+.product11-caption{
+    grid-row: 12;
+    grid-column: 2;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+}
+
+.product12-caption{
+    grid-row: 12;
+    grid-column: 3;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+}
+
+.product10-description{
+    grid-row: 13;
+    grid-column: 1;
+    width: 260px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.product11-description{
+    grid-row: 13;
+    grid-column: 2;
+    width: 210px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.product12-description{
+    grid-row: 13;
+    grid-column: 3;
+    width: 210px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+}
